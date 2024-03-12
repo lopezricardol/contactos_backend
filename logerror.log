@@ -1,0 +1,31 @@
+2024-03-11T07:07:15.084-03:00  WARN 11136 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1d11h51m17s406ms935탎500ns).
+2024-03-11T07:26:04.770-03:00  INFO 15620 --- [main] c.c.contactos.ContactosApplication       : Starting ContactosApplication using Java 17.0.5 with PID 15620 (C:\Users\Usuario\Documents\Desarrollo\Practicas\Proyecto Contactos\contactos_backend\target\classes started by Usuario in C:\Users\Usuario\Documents\Desarrollo\Practicas\Proyecto Contactos\contactos_backend)
+2024-03-11T07:26:04.854-03:00  INFO 15620 --- [main] c.c.contactos.ContactosApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-03-11T07:26:09.033-03:00  INFO 15620 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-11T07:26:09.290-03:00  INFO 15620 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 206 ms. Found 1 JPA repository interface.
+2024-03-11T07:26:12.785-03:00  INFO 15620 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-03-11T07:26:12.918-03:00  INFO 15620 --- [main] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.36] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2024-03-11T07:26:13.000-03:00  INFO 15620 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.36] using APR version [1.7.2].
+2024-03-11T07:26:13.065-03:00  INFO 15620 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1t  7 Feb 2023]
+2024-03-11T07:26:13.119-03:00  INFO 15620 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-11T07:26:13.121-03:00  INFO 15620 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-11T07:26:13.551-03:00  INFO 15620 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-11T07:26:13.554-03:00  INFO 15620 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 8365 ms
+2024-03-11T07:26:14.229-03:00  INFO 15620 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-11T07:26:15.878-03:00  INFO 15620 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:9a709b4c-8c94-4044-9140-fb1b05d91770 user=SA
+2024-03-11T07:26:15.910-03:00  INFO 15620 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-11T07:26:16.348-03:00  INFO 15620 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-11T07:26:17.297-03:00  INFO 15620 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-11T07:26:17.647-03:00  INFO 15620 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-03-11T07:26:19.874-03:00  INFO 15620 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-11T07:26:25.417-03:00  INFO 15620 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-11T07:26:25.623-03:00  INFO 15620 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-11T07:26:27.045-03:00  WARN 15620 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-11T07:26:31.169-03:00  INFO 15620 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-03-11T07:26:31.299-03:00  INFO 15620 --- [main] c.c.contactos.ContactosApplication       : Started ContactosApplication in 28.725 seconds (process running for 31.346)
+2024-03-11T07:27:07.717-03:00  INFO 15620 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-11T07:27:07.766-03:00  INFO 15620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-11T07:27:07.931-03:00  INFO 15620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 149 ms
+2024-03-11T09:02:15.933-03:00  WARN 15620 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m25s610ms966탎100ns).
+2024-03-11T11:32:19.696-03:00  WARN 15620 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h35m34s990ms410탎700ns).
+2024-03-11T21:56:33.093-03:00  WARN 15620 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9h49m45s10ms800탎100ns).
